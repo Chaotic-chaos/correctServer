@@ -1,0 +1,7 @@
+config.yaml
+FastCorrect/finetune/*
+**/__pycache__
+logs/*
+.gitignore
+.vscode
+.git

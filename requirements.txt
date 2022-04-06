@@ -1,0 +1,5 @@
+fairseq==0.10.2
+numpy==1.22.3
+PyYAML==6.0
+sanic==22.3.0
+sentencepiece==0.1.96

@@ -1,0 +1,23 @@
+# Project:       /root/projects/Pythons/fastCorrect/correctServer
+# File Name:     config.yaml
+# Author:        Chaos
+# Email:         life0531@foxmail.com
+# Date:          2022/04/05
+
+DEBUG: True
+WORKERS: 1
+
+LOG:
+  level: info
+  filename: logs/run.log
+  maxBytes: 10485760
+  backupCount: 5
+  format: "[%(asctime)s] [%(levelname)s] %(message)s"
+
+MODEL:
+  model_path:                            # checkpoint path
+  iter_decode_max: 0
+  data_path:                             # training data path
+  bpe: sentencepiece
+  sentencepiece_model:                   # sentencepiece model path
+  beam_size: 5
